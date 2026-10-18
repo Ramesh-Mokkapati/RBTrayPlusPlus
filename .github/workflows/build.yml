@@ -46,7 +46,7 @@ jobs:
 
       - name: Build
         # -warnaserror fails the build on any compiler or linker warning
-        run: msbuild RBTray++.sln -p:Configuration=Release -p:Platform=${{ matrix.platform }} -m -nologo -v:minimal -warnaserror
+        run: msbuild RBTray.sln -p:Configuration=Release -p:Platform=${{ matrix.platform }} -m -nologo -v:minimal -warnaserror
 
       - name: Package
         shell: pwsh

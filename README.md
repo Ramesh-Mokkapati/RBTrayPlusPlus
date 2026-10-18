@@ -60,11 +60,11 @@ RBTray++.exe --exit
 
 ## Building
 
-Open `RBTray++.sln` in Visual Studio 2022 and build, or from a Developer
+Open `RBTray.sln` in Visual Studio 2022 and build, or from a Developer
 Command Prompt:
 
 ```bash
-msbuild RBTray++.sln -p:Configuration=Release -p:Platform=x64
+msbuild RBTray.sln -p:Configuration=Release -p:Platform=x64
 ```
 
 Output is written to `bin\<Platform>\<Configuration>\`.
@@ -244,7 +244,7 @@ Other changes:
 
 #### Build and packaging
 
-- Visual Studio 2022 solution `RBTray++.sln`, C++17, Win32 and x64
+- Visual Studio 2022 solution `RBTray.sln`, C++17, Win32 and x64
   configurations.
 - Output goes to `bin\<Platform>\<Configuration>\`; intermediate files to
   `obj\`. The executable is `RBTray++.exe`, next to `RBHook.dll`.
