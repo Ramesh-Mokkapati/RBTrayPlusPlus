@@ -1,0 +1,40 @@
+# Build output (see OutDir/IntDir in the .vcxproj files)
+bin/
+obj/
+dist/
+
+# Visual Studio state and caches
+.vs/
+*.user
+*.suo
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.opendb
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+ipch/
+
+# Compiler and linker by-products, in case they land outside bin/ and obj/
+*.obj
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.exp
+*.lib
+*.res
+*.tlog
+*.log
+*.idb
+*.pch
+*.ipch
+
+# Leftovers from replacing a DLL that was in use
+*.old
+
+# OS files
+Thumbs.db
+Desktop.ini
